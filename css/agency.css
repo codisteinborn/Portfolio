@@ -76,7 +76,7 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(247, 90, 229, 0.584) !important;
 }
 
 ::-moz-selection {
@@ -98,7 +98,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #2e2c2e;
 }
 
 #mainNav .navbar-toggler {
@@ -109,12 +109,12 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #ffa5e3;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
 }
 
 #mainNav .navbar-brand {
   color: #ffa5e3;
-  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -122,6 +122,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
+  float: right;
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
@@ -156,7 +157,8 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #373536;
+    opacity: .97;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -167,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -369,7 +371,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  background-color: #2e2c2e;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -381,7 +383,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  background-color: #2e2c2e;
 }
 
 .timeline {
@@ -593,7 +595,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #2e2c2e;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
 }
@@ -686,7 +688,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: #2e2c2e;
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
@@ -695,4 +697,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .port-img{
   width: 350px;
   height: 262.5px;
+}
+.about-img{
+  height: 100%;
+  width: 100%;
 }
