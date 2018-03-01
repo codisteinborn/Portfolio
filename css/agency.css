@@ -452,6 +452,7 @@ header.masthead .intro-text .intro-heading {
   border: 7px solid #e9ecef;
   border-radius: 100%;
   background-color: #ffa5e3;
+  
 }
 
 .timeline > li .timeline-image h4 {
@@ -701,4 +702,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .about-img{
   height: 100%;
   width: 100%;
+}
+.compabout-img{
+  background-image: url("../img/about/student.jpg");
+  background-position: center;
+  background-size: 400px;
+}
+.monabout-img{
+  background-image: url("../img/about/money.jpg");
+  background-position: center;
+  background-size: 500px;
 }
