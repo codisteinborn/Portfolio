@@ -406,7 +406,7 @@ header.masthead .intro-text .intro-heading {
 .timeline > li {
   position: relative;
   min-height: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
 
 .timeline > li:after, .timeline > li:before {
